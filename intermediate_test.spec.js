@@ -45,3 +45,9 @@ test('Check heading @smoke', async ({ page }) => {
     const heading = await page.locator('h1');
     await expect(heading).toHaveText('Example Domain');
 });
+
+test.only('Fetch data from API', async ({ request }) => {
+  const response = await request.get('https://api.github.com/users/playwright');
+  const data = await response.json();
+  console.log(data.login); // playwright
+});
