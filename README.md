@@ -17,15 +17,6 @@ Although Playwright is **JavaScript/TypeScript-first**, the concepts here direct
 
 ---
 
-## 📂 Project Structure
-Playwright_Tests/
-│
-├── tests/             # Contains test files
-├── playwright.config.js  # Playwright configuration
-└── package.json       # Dependencies and scripts
-
----
-
 ## ⚡ Features  
 - Automates browser actions (launch, navigate, interact, close)  
 - Tests basic UI interactions and workflows  
